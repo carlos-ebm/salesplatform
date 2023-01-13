@@ -1,0 +1,30 @@
+{
+  "name": "salesplatform-server",
+  "version": "1.0.0",
+  "description": "plataforma de ventas con catálogo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-ebm/salesplatform-server.git"
+  },
+  "author": "edex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos-ebm/salesplatform-server/issues"
+  },
+  "homepage": "https://github.com/carlos-ebm/salesplatform-server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
